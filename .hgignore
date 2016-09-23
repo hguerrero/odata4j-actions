@@ -1,0 +1,14 @@
+syntax: regexp
+\.classpath$
+syntax: regexp
+\.project$
+
+syntax: glob
+target
+.settings
+.DS_Store
+.idea
+.externalToolBuilders
+*.iml
+*.ipr
+*.iws
